@@ -1,0 +1,69 @@
+body {
+  display: flex;
+  justify-content: center;
+  font-family: sans-serif;
+}
+
+.div-1 {
+  margin-top: 50px;
+  text-align: center;
+  background-color: aqua;
+  width: 384px;
+  border-radius: 10px;
+  background-color: #1F1F1F;
+}
+.div-1 img {
+  width: 120pxpx;
+  height: 88px;
+  border-radius: 50px;
+}
+
+.div-2 {
+  margin-top: 40px;
+}
+.div-2 h1 {
+  font-size: 24px;
+  font-weight: 600;
+  color: aliceblue;
+}
+.div-2 p {
+  font-size: 14px;
+  font-weight: 700;
+  color: #C4F82A;
+}
+
+.div-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 40px;
+}
+.div-3 p {
+  font-size: 14px;
+  font-weight: 400;
+  color: aliceblue;
+}
+.div-3 button {
+  border-radius: 10px;
+  background-color: #333333;
+  border: 0;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  width: 80%;
+  height: 45px;
+  transition: all 0.5s ease;
+}
+.div-3 button a {
+  text-decoration: none;
+  color: #fff;
+}
+.div-3 button:hover {
+  background-color: #C4F82A;
+  font-weight: 700;
+}
+.div-3 button:hover a {
+  color: #333333;
+}/*# sourceMappingURL=main.css.map */
